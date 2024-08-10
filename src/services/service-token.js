@@ -1,7 +1,7 @@
 //Set Token
 function setToken(token) {
   if (token) {
-    localStorage.setItem("token", token?.access);
+    localStorage.setItem("token", token);
     localStorage.setItem("refresh_token", token?.refresh);
   }
 }
